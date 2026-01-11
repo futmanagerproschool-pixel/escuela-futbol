@@ -1,0 +1,17 @@
+:root { --primary: #2563eb; --dark: #1e293b; --bg: #f1f5f9; }
+body { font-family: sans-serif; margin: 0; background: var(--bg); }
+.app-container { display: flex; min-height: 100vh; }
+.sidebar { width: 250px; background: var(--dark); color: white; padding: 20px; }
+.sidebar button { width: 100%; padding: 12px; margin-bottom: 10px; border: none; background: transparent; color: white; text-align: left; cursor: pointer; border-radius: 5px; }
+.sidebar button.active { background: var(--primary); }
+.content { flex: 1; padding: 30px; }
+.card { background: white; padding: 25px; border-radius: 10px; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1); }
+.grid-form { display: grid; gap: 10px; grid-template-columns: 1fr 1fr 1fr auto; margin-bottom: 20px; }
+.grid-form-3 { display: grid; gap: 10px; grid-template-columns: 1fr 1fr 1fr; }
+input, select { padding: 10px; border: 1px solid #cbd5e1; border-radius: 5px; }
+button { cursor: pointer; border-radius: 5px; }
+.btn-main { background: var(--primary); color: white; border: none; grid-column: span 3; padding: 15px; }
+table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+th, td { padding: 12px; border-bottom: 1px solid #e2e8f0; text-align: left; }
+.badge { padding: 4px 8px; border-radius: 4px; font-size: 12px; }
+.Administrador { background: #fee2e2; color: #991b1b; }
