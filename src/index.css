@@ -15,3 +15,5 @@ table { width: 100%; border-collapse: collapse; margin-top: 15px; }
 th, td { padding: 12px; border-bottom: 1px solid #e2e8f0; text-align: left; }
 .badge { padding: 4px 8px; border-radius: 4px; font-size: 12px; }
 .Administrador { background: #fee2e2; color: #991b1b; }
+.btn-pdf { background: #e11d48; color: white; border: none; padding: 5px 10px; border-radius: 4px; }
+.btn-pdf:hover { background: #be123c; }
